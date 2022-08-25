@@ -14,11 +14,11 @@ This project is part of Udacity’s Data Science Nanodegree capstone project. So
 
 ## Data
 
-The data provided by Udacity are divided into two sets:
-* *azdias_sample.csv*: contains 366 features for the 178244 German citizens. 
-* *customers.csv*: contains 369 features for the 191516 customers. 
-* *camp_train.csv*: train set with 367 variables of  42962 individuals XX by a marketing campaign. The RESPONSE variable states whether or not the individuals have become  customers after the campaing. 
-* *camp_test.csv*: train set with 366 variables of  42962 individuals XX by a marketing campaign. The RESPONSE variable was withdraw.
+The data provided by Udacity are divided into four sets. In some cases, samples were taken to reduce processing time:
+* *azdias_sample.pkl*: contains 366 features for the 133683 German citizens. It's a random sample representing 15% of the original data set provided by Udacity.
+* *customers.pkl*: contains 369 features for the 153215 customers. This represents 80% of the orginal data base available.
+* *camp_train.pkl*: train set with 367 variables of  42962 individuals that were targeted for a marketing campaign. The RESPONSE variable states whether or not the individuals have become  customers after the campaing. 
+* *camp_test.pkl*: train set with 366 variables of  42962 individuals that were targeted for a marketing campaign. The RESPONSE variable was withdraw.
 
 Two Excel spreadsheets with information about the data were also provided: 
 * DIAS Information Levels - Attributes 2017.xlsx – is a top-level list of attributes and descriptions, organized by informational category. 
